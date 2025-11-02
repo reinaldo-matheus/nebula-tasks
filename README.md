@@ -1,73 +1,36 @@
-# React + TypeScript + Vite
+<!-- 🌌 NEBULA TASK - README GALÁCTICO -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+# 🌌 **Nebula Task**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### _Gerencie suas tarefas como quem organiza uma galáxia._
 
-## React Compiler
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-purple?style=for-the-badge&logo=vercel&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+![React](https://img.shields.io/badge/react-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-9.0.0-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> **Nebula Task** é uma aplicação de produtividade feita em **React + TailwindCSS**, com o propósito de transformar o ato de organizar tarefas em uma experiência visual, fluida e motivadora.  
+> Aqui, cada _to-do_ é uma estrela, e cada conquista expande o seu próprio universo. 🚀
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ⚙️ **Tecnologias Utilizadas**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Tecnologia               | Função                                 |
+| ------------------------ | -------------------------------------- |
+| ⚛️ **React**             | Base do front-end                      |
+| 💨 **TailwindCSS**       | Estilização moderna e responsiva       |
+| 📦 **pnpm**              | Gerenciador de pacotes rápido e leve   |
+| ⚙️ **Vite**              | Build ultra veloz para desenvolvimento |
+| 🧹 **ESLint + Prettier** | Padrões de código e formatação         |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Projeto em construção...🚧**
