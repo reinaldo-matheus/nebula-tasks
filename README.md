@@ -31,6 +31,3 @@
 | ⚙️ **Vite**              | Build ultra veloz para desenvolvimento |
 | 🧹 **ESLint + Prettier** | Padrões de código e formatação         |
 
----
-
-**Projeto em construção...🚧**
