@@ -18,6 +18,7 @@ interface IconProps
     VariantProps<typeof iconVariants> {
   svg: React.FC<React.ComponentProps<"svg">>;
 }
+
 export default function Icon({
   svg: SvgComponent,
   animate,
